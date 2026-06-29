@@ -1,24 +1,16 @@
-# YouTube Channel Analyzer
+# YouTube Channel Data Analyzer
 
-A beginner-friendly Python data analysis project that analyzes YouTube-style video data using Pandas and Matplotlib.
+A Python tool that fetches and analyzes live YouTube channel data via the YouTube Data API v3.
 
-## Features
+## Tech Stack
+- Python 3 | Pandas | Matplotlib | YouTube Data API v3
 
-- Reads video data from a CSV file
-- Calculates average views
-- Finds the most viewed video
-- Finds the most liked video
-- Calculates engagement rate
-- Saves the results to a new CSV file
-- Creates a bar chart for video views
+## What it does
+- Fetches real channel statistics (subscribers, views, video count)
+- Pulls recent videos and computes engagement rate per video
+- Generates a bar chart of views per video
+- Exports results to CSV
 
-## Dataset
-
-The project uses this example data:
-
-```csv
-title,views,likes,comments
-Python Tutorial,15000,900,120
-AI Explained,50000,3200,450
-Robotics Basics,22000,1400,210
-Machine Learning Intro,75000,5100,700
+## How to Run
+pip install -r requirements.txt
+python main.py
