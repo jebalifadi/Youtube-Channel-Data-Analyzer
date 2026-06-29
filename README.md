@@ -1,20 +1,15 @@
-# YouTube Video Data Analyzer
-This is a beginner Python project that analyzes YouTube-style video data using a CSV file and Pandas.
-The goal of this project is to practice Python, data analysis, and working with real-world style datasets. This project will later be improved with charts, real YouTube API data, and maybe a dashboard.
+# YouTube Channel Data Analyzer
 
-## Project Idea
-The program reads video data from a CSV file and analyzes basic information such as:
+A Python data analysis tool that extracts and visualizes insights from YouTube video datasets.
 
-- Video titles
-- Number of views
-- Number of likes
-- Number of comments
-- Most viewed video
-- Most liked video
-- Basic statistics about the videos
+## Tech Stack
+- Python 3 | Pandas | Matplotlib
 
-## Technologies Used
+## What it does
+- Computes average views, engagement rate and top performing videos
+- Generates bar chart visualizations
+- Exports enriched dataset to CSV
 
-- Python
-- Pandas
-- CSV files
+## How to Run
+pip install -r requirements.txt
+python main.py
